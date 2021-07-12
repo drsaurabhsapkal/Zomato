@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <title>Zomato</title>
+        <style>
+            body{
+                font-family: Poppins;
+            }
+            #img{
+                height: 450px;
+                width: 100%;
+            }
+            #cardimg{
+                height: 100%;
+                width: 100%;
+            }
+            #iconimg{
+                height: 20%;
+                width: 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col">
+                <div class="row">
+
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img id='img'src="./images/home.png" class="img-fluid">
+                            <div class="carousel-caption">
+                                <img src='./images/icon.png' class="col-1 m-2 rounded-circle" id="iconimg">
+                                <h2 class="fw-bold" id='mtext'>Find the best restaurants, cafés, and bars</h2>
+                                <div class="row m-5">
+                                    <div class="col-4 form-group">
+                                        <select class="form-select form-select mb-3" aria-label=".form-select-lg example">
+                                            <option selected disabled>-- Select City --</option>
+                                            <option value="1" >Delhi</option>
+                                            <option value="2" >Mumbai</option>
+                                            <option value="3" >Bangalore</option>
+                                            <option value="4" >Hyderabad</option>
+                                            <option value="5" >Chandigarh</option>
+                                          </select>
+                                    </div>
+                                    <div class="col g-0 border-0">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                            <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Search for restaurant">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p class="display-6 fw-bold mt-5">Quick Search</p>
+                        <p class="text-muted">Discover restaurants by type of meal</p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mb-3 shadow-lg">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./images/breakfast.png" class="img-fluid rounded-start w-100" id='cardimg'>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title fw-bold">Breakfast</p>
+                                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-3 shadow-lg">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./images/lunch.png" class="img-fluid rounded-start" id='cardimg'>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title fw-bold">Lunch</p>
+                                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-3 shadow-lg">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./images/snacks.png" class="img-fluid rounded-start" id='cardimg'>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title fw-bold">Snacks</p>
+                                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mb-3 shadow-lg">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./images/dinner.png" class="img-fluid rounded-start" id='cardimg'>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title fw-bold">Dinner</p>
+                                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-3 shadow-lg">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./images/drinks.png" class="img-fluid rounded-start" id='cardimg'>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title fw-bold">Drinks</p>
+                                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-3 shadow-lg">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./images/nightlife.png" class="img-fluid rounded-start" id='cardimg'>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title fw-bold">Nightlife</p>
+                                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
